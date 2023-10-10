@@ -41,14 +41,14 @@ Copy and paste the following contents into each file:
 ```sh
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/[your user name]/miniforge3-arm/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/Users/[your user name]/miniconda3-arm/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/[your user name]/miniforge3-arm/etc/profile.d/conda.sh" ]; then
-        . "/Users/[your user name]/miniforge3-arm/etc/profile.d/conda.sh"
+    if [ -f "/Users/[your user name]/miniconda3-arm/etc/profile.d/conda.sh" ]; then
+        . "/Users/[your user name]/miniconda3-arm/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/[your user name]/miniforge3-arm/bin:$PATH"
+        export PATH="/Users/[your user name]/miniconda3-arm/bin:$PATH"
     fi
 fi
 unset __conda_setup
